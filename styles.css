@@ -1,0 +1,18 @@
+:root {
+  --color-primary: lightgreen;
+  --color-secondary: brown;
+  --padding-items: 2rem;
+  --border-radius: 2rem;
+  --margin-items: 1rem;
+}
+.one {
+  background: var(--color-primary);
+  padding: var(--padding-items);
+  border-radius: var(--border-radius);
+  margin: var(--margin-items);
+}
+.two {
+  background: var(--color-secondary);
+  padding: var(--padding-items);
+  border-radius: var(--border-radius);
+}
